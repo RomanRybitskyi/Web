@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FineDine ~ Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class='header'>
+    <div class='container'>
+        <div class='header__container'>
+            <nav class='header__nav'>
+                <a href='./index.html' class="logo-link">
+                    <span class="logo">FineDine</span> </a>
+                <ul class='header__menu'>
+                    <li><a class='link' href='index.html#menu-section'>Menu</a></li>
+                    <li><a class='link' href='index.html#reserve-section'>Reserve</a></li>
+                    <li><a class='link' href='index.html#about-us-section'>About Us</a></li>
+                    <li><a class='link' href='index.html#attitude-section'>Attitude</a></li>
+                </ul>
+            </nav>
+            <button class="header__burger menu-btn-open" type="button">
+                <svg width="24" height="24">
+                    <use href='./images/icons.svg#icon-menu'></use>
+                </svg>
+            </button>
+            <div class="mobile-menu">
+                <button class='mobile-menu__btn-close menu-btn-close' type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="signup-form">
+    <div class='container'>
+        <div class="wrapper">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Create password" required>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Confirm password" required>
+                </div>
+                <div class="policy">
+                    <input type="checkbox">
+                    <h3>I accept all terms & condition</h3>
+                </div>
+                <div class="input-box button">
+                    <input type="Submit" value="Register Now">
+                </div>
+                <div class="text">
+                    <h3>Already have an account? <a href="#">Login now</a></h3>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>FineDine</title>
+    <link rel='stylesheet' href='styles.css'>
+</head>
+<body>
+<header class='header'>
+    <div class='container'>
+        <div class='header__container'>
+            <nav class='header__nav'>
+                <a href='./index.html' class="logo-link">
+                    <span class="logo">FineDine</span> </a>
+                <ul class='header__menu'>
+                    <li><a class='link' href='#menu-section'>Menu</a></li>
+                    <li><a class='link' href='#reserve-section'>Reserve</a></li>
+                    <li><a class='link' href='#about-us-section'>About Us</a></li>
+                    <li><a class='link' href='#attitude-section'>Attitude</a></li>
+                    <li><a class='link' href='sign-up.html'>Sign up</a></li>
+                </ul>
+            </nav>
+            <button class='header__button button modal-btn-open' type='button'>Order online</button>
+            <button class="header__burger menu-btn-open" type="button">
+                <svg width="24" height="24">
+                    <use href='./images/icons.svg#icon-menu'></use>
+                </svg>
+            </button>
+            <div class="mobile-menu">
+                <button class='mobile-menu__btn-close menu-btn-close' type="button">Close</button>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class='hero-section'>
+        <div class='container'>
+            <h1 class='hero-section__title'>It's not just Food<br><span class='text-brand'>It's an Experience</span>
+            </h1>
+            <button class='hero-section__button button modal-btn-open' type='button'>Order online</button>
+        </div>
+    </section>
+    <section class='advantages-section'>
+        <div class='container'>
+            <h2 class='visually-hidden'>Наші переваги</h2>
+            <ul class='advantages-section__list'>
+                <li class='advantages-section__item'>AI-based Recommendation</li>
+                <li class='advantages-section__item'>Efficient Delivery Operations</li>
+                <li class='advantages-section__item'>Embracing Sustainability and Eco-Friendly Practices</li>
+            </ul>
+        </div>
+    </section>
+    <section class='about-us-section section' id='about-us-section'>
+        <div class='container'>
+            <div class='about-us-section__container'>
+                <div class='about-us-section__content'>
+                    <h2 class='about-us-section__title section__title'>About Us</h2>
+                    <p>At <span class='text-brand text-bold'>FineDine</span> we believe that dining is
+                        more than just a meal; it's an experience that should nourish the body and delight the senses.
+                        For over three decades, we have been dedicated to serving our customers with the finest culinary
+                        creations, crafted with the freshest ingredients and the utmost attention to detail.</p>
+                    <p class='about-us__text about-us-section__text--limited'> <span
+                            class='text-brand text-bold'>Join us on a culinary
+                        journey that transcends the ordinary.</span> Explore our diverse menu, embrace our innovative
+                        approach, and savor the flavors that have made <span
+                                class='text-brand text-bold'>FineDine</span> an internationally recognized
+                        destination for
+                        culinary excellence.</p>
+                </div>
+                <img class="about-us-section__image"
+                     src='./images/hi---12.1589386418.5272.jpg' width="450"
+                     alt='Restaurant'>
+            </div>
+        </div>
+    </section>
+    <section class='attitude-section section' id='attitude-section'>
+        <div class='container'>
+            <h2 class='attitude-section__title section__title section__title--centered'>Our special <br> <span
+                    class='text-brand-dark'>attitude</span>
+            </h2>
+            <ul class='attitude-section__list'>
+                <li class='attitude-section__item'>
+                    <article class='attitude-card'>
+                        <img class='attitude-card__photo'
+                             src='./images/ai-banner-800x450_tcm100-7204059_tcm100-6286607-32.jpg' alt='AI-System'>
+                        <div>
+                            <h3 class='attitude-card__title'>AI-System</h3>
+                            <div class='attitude-card__text'>
+                                <p>FineDine has implemented a cutting-edge AI-based recommendation system that analyzes
+                                    customers' preferences, previous orders, and highly rated menu items to provide
+                                    personalized suggestions, ensuring a tailored and delightful dining experience. </p>
+                            </div>
+                        </div>
+                    </article>
+                </li>
+                <li class='attitude-section__item'>
+                    <article class='attitude-card'>
+                        <img class='attitude-card__photo' src='./images/Nutritionist.jpg' alt='Nutritionist'>
+                        <div>
+                            <h3 class='attitude-card__title'>Chat with nutritionist</h3>
+                            <p class='attitude-card__text'>FineDine's "Chat with a Nutritionist" feature connects
+                                health-conscious diners with qualified professionals for personalized advice on menu
+                                choices aligning with their dietary goals and nutritional needs.
+                            </p>
+                        </div>
+                    </article>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class='menu-section section' id='menu-section'>
+        <div class='container'>
+            <h2 class='menu-section__title section__title section__title--centered'>Menu</h2>
+            <div class='menu-section__slider'>
+                <button class='menu-section__button carousel-button prev' type='button'>
+                    <svg class='carousel-button__arrow' width='16' height='16'>
+                        <use href='./images/icons.svg#icon-arrow'></use>
+                    </svg>
+                </button>
+                <div class="menu-section__container swiper-container">
+                    <ul class='menu-section__list swiper-wrapper'>
+                        <li class='swiper-slide'>
+                            <article class='menu-card'>
+                                <img class="menu-card__image" src="./images/popular-diets-4.jpg" alt="Diets">
+                                <h3 class='menu-card__title' lang='en'>Diets</h3>
+                                <div class='menu-card__text'><p>Vegan: Our extensive vegan menu features a variety of
+                                    plant-based dishes that are free from any animal-derived products, including meat,
+                                    dairy, and eggs.</p>
+                                    <p>Vegetarian: For those who prefer a meat-free diet, our vegetarian selection
+                                        offers a plethora of options, ranging from classic pasta dishes to innovative
+                                        vegetable-based entrees.</p>
+                                    <p>Keto-Friendly: For those following a low-carb, high-fat ketogenic diet, FineDine
+                                        offers a variety of keto-friendly options. </p>
+                                    <p>Paleo: Embracing the principles of the Paleo diet, our Paleo-friendly menu
+                                        features dishes that are free from grains, legumes, and processed foods.</p>
+                                </div>
+
+                            </article>
+                        </li>
+                        <!--                        <li class='swiper-slide'>-->
+                        <!--                            <article class='menu-card'>-->
+                        <!--                                <img class="menu-card__image" src="./images/horseshoe-menu.jpg"-->
+                        <!--                                     alt="">-->
+                        <!--                                <h3 class='menu-card__title' lang='en'>Horseshoe</h3>-->
+                        <!--                                <div class='menu-card__text'>-->
+                        <!--                                    <p>Площа: до 25 м2</p>-->
+                        <!--                                    <p>Меню: найпопулярніші позиції меню</p>-->
+                        <!--                                    <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>-->
+                        <!--                                    <p>Посадкові місця: відсутні</p>-->
+                        <!--                                </div>-->
+                        <!--                            </article>-->
+                        <!--                        </li>-->
+                        <!--                        <li class='swiper-slide'>-->
+                        <!--                            <article class='menu-card'>-->
+                        <!--                                <img class="menu-card__image" src="./images/handlebar.jpg" alt="Handlebar menu">-->
+                        <!--                                <h3 class='menu-card__title' lang='en'>Handlebar</h3>-->
+                        <!--                                <div class='menu-card__text'>-->
+                        <!--                                    <p>Площа: до 15 м2</p>-->
+                        <!--                                    <p>Меню: найпопулярніші позиції меню </p>-->
+                        <!--                                    <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>-->
+                        <!--                                    <p>Посадкові місця: відсутні</p>-->
+                        <!--                                </div>-->
+                        <!--                            </article>-->
+                        <!--                        </li>-->
+                        <!--                        <li class='swiper-slide'>-->
+                        <!--                            <article class='menu-card'>-->
+                        <!--                                <img class="menu-card__image" src="./images/walrus-menu.jpg" alt="Walrus menu">-->
+                        <!--                                <h3 class='menu-card__title' lang='en'>Walrus</h3>-->
+                        <!--                                <div class='menu-card__text'><p>Площа: до 120 м2</p>-->
+                        <!--                                    <p>Меню: розширене меню </p>-->
+                        <!--                                    <p>Штат: 2 продавці-касири, 2 пекарі, 2 помічники пекаря, 2 офіціанти-різнороби</p>-->
+                        <!--                                    <p>Посадкові місця: є</p>-->
+                        <!--                                </div>-->
+
+                        <!--                            </article>-->
+                        <!--                        </li>-->
+                        <!--                        <li class='swiper-slide'>-->
+                        <!--                            <article class='menu-card'>-->
+                        <!--                                <img class="menu-card__image" src="./images/horseshoe-menu.jpg"-->
+                        <!--                                     alt="Horseshoe menu">-->
+                        <!--                                <h3 class='menu-card__title' lang='en'>Horseshoe</h3>-->
+                        <!--                                <div class='menu-card__text'>-->
+                        <!--                                    <p>Площа: до 25 м2</p>-->
+                        <!--                                    <p>Меню: найпопулярніші позиції меню</p>-->
+                        <!--                                    <p>Штат: 2 продавці-касири, 2 пекарі, 1 помічник пекаря</p>-->
+                        <!--                                    <p>Посадкові місця: відсутні</p>-->
+                        <!--                                </div>-->
+                        <!--                            </article>-->
+                        <!--                        </li>-->
+                        <!--                        <li class='swiper-slide'>-->
+                        <!--                            <article class='menu-card'>-->
+                        <!--                                <img class="menu-card__image" src="./images/handlebar.jpg" alt="Handlebar menu">-->
+                        <!--                                <h3 class='menu-card__title' lang='en'>Handlebar</h3>-->
+                        <!--                                <div class='menu-card__text'>-->
+                        <!--                                    <p>Площа: до 15 м2</p>-->
+                        <!--                                    <p>Меню: найпопулярніші позиції меню </p>-->
+                        <!--                                    <p>Штат: 1 продавець, 1 пекар, 1 помічник пекаря</p>-->
+                        <!--                                    <p>Посадкові місця: відсутні</p>-->
+                        <!--                                </div>-->
+                        <!--                            </article>-->
+                        <!--                        </li>-->
+                    </ul>
+                    <div class="pagination">
+                        <span class="pagination__button"></span>
+                        <span class="pagination__button"></span>
+                        <span class="pagination__button"></span>
+                        <span class="pagination__button"></span>
+                    </div>
+                </div>
+                <button class='menu-section__button carousel-button next' type='button'>
+                    <svg class='carousel-arrow' width='16' height='16'>
+                        <use href='./images/icons.svg#icon-arrow'></use>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class='reserve-section section' id='reserve-section'>
+        <div class='container'>
+            <div class='reserve-section__container'>
+                <div class='reserve-section__form'>
+                    <h2 class='reserve-section__title section__title'>Reservation</h2>
+                    <p>Fill out the form so we can contact you!</p>
+                    <form name="reserve-form" autocomplete="off">
+                        <div class="reserve-section__form-field input">
+                            <label class="input__label visually-hidden" for="user-name">Name</label>
+                            <input class="input__control" type="text" id="user-name" name="user-name"
+                                   placeholder="Name">
+                        </div>
+                        <div class="reserve-section__form-field input">
+                            <label class="input__label visually-hidden" for="user-tel">Phone</label>
+                            <input class="input__control" type="tel" id="user-tel" name="user-tel"
+                                   placeholder="Phone">
+                        </div>
+                        <div class="reserve-section__form-field input">
+                            <label class="input__label visually-hidden" for="user-email">Email</label>
+                            <input class="input__control" type="email" id="user-email" name="user-email"
+                                   placeholder="Email">
+                        </div>
+                        <button class="reserve-section__button button" type="submit">Order a call</button>
+                        <p class="form-terms">By clicking the button, I agree to the <a
+                                class="form-terms__link" href="#">privacy policy</a></p>
+                    </form>
+                </div>
+                <iframe class='reserve-section__map'
+                        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2299.017259346569!2d-97.72856821886688!3d30.304507881610583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644ca76bf71360d%3A0x965f8bf25117cd57!2zNDIwNiBEdXZhbCBTdCwgQXVzdGluLCBUWCA3ODc1MSwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1711388053563!5m2!1suk!2sua'
+                        style='border:0;' allowfullscreen='' loading='lazy'
+                        referrerpolicy='no-referrer-when-downgrade'></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class='footer'>
+    <div class='container'>
+        <div class='footer__container'>
+            <nav class='footer__nav'>
+                <div class='footer__logo'>
+                    <a href='./index.html' class="logo-link">
+                        <span class="logo">FineDine</span>
+                    </a>
+                </div>
+                <ul class='footer__menu'>
+                    <li><a class='link' href='#menu-section'>Menu</a></li>
+                    <li><a class='link' href='#reserve-section'>Reserve</a></li>
+                    <li><a class='link' href='#about-us-section'>About Us</a></li>
+                    <li><a class='link' href='#attitude-section'>Attitude</a></li>
+                </ul>
+            </nav>
+            <address class='footer__address'>
+                <div class="footer__address_contacts">
+                    <ul class='footer__address-list'>
+                        <li><a class='footer__address-link' href='tel:+13465812787'>+1 (346) 581 2787</a></li>
+                        <li><a class='footer__address-link' href='mailto:finedine@gmail.com'>finedine@gmail.com</a>
+                        </li>
+                        <li><a class='footer__address-link' href='https://maps.app.goo.gl/NGo3D7xp9A1fQ61s7'
+                               target='_blank'>
+                            4206 Duval St, Austin, TX 78751, USA</a></li>
+                    </ul>
+
+                    <div class="">
+                        <a href='#'>
+                            <svg class='footer__address-icon' width='32' height='32'>
+                                <use href='./images/icons.svg#icon-facebook'></use>
+                            </svg>
+                        </a>
+                        <a href='#'>
+                            <svg class='footer__address-icon' width='32' height='32'>
+                                <use href='./images/icons.svg#icon-instagram'></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class='footer__address-info'>
+                    <a class='footer__address-link' href='#' target='_blank'>Privacy Policy</a>
+                    <p class='footer__address-copyright'>&copy; 2024 Copyright</p>
+                </div>
+
+            </address>
+        </div>
+    </div>
+</footer>
+
+<div class='backdrop is-hidden'>
+    <div class='modal'>
+        <button class='modal-btn-close modal__btn-close' type='button'>Close</button>
+        <h2>Замовити дзвінок</h2>
+        <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
+        <form name="modal-form" autocomplete="off">
+            <div class="modal__form-field input">
+                <label class="input__label visually-hidden" for="modal-user-name">Ім'я</label>
+                <input class="input__control" type="text" id="modal-user-name" name="modal-user-name"
+                       placeholder="Ім'я">
+            </div>
+            <div class="modal__form-field input">
+                <label class="input__label visually-hidden" for="modal-user-tel">Телефон</label>
+                <input class="input__control" type="tel" id="modal-user-tel" name="modal-user-tel"
+                       placeholder="Телефон">
+            </div>
+            <div class="modal__form-field input">
+                <label class="input__label visually-hidden" for="modal-user-email">Електронна пошта</label>
+                <input class="input__control" type="email" id="modal-user-email" name="modal-user-email"
+                       placeholder="Електронна пошта">
+            </div>
+            <button class="modal__button button" type="submit">Замовити дзвінок</button>
+            <p class="form-terms">Натискаючи на кнопку я погоджуюсь <a class="form-terms-link" href="#">з політикою
+                конфіденційності</a></p>
+        </form>
+    </div>
+</div>
+<script src='script.js'></script>
+</body>
+</html>
