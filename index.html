@@ -223,7 +223,7 @@
                 <div class='reserve-section__form'>
                     <h2 class='reserve-section__title section__title'>Reservation</h2>
                     <p>Fill out the form so we can contact you!</p>
-                    <form name="reserve-form" autocomplete="off">
+                    <form class="reserve-form" name="reserve-form" autocomplete="off">
                         <div class="reserve-section__form-field input">
                             <label class="input__label visually-hidden" for="user-name">Name</label>
                             <input class="input__control" type="text" id="user-name" name="user-name"
@@ -330,5 +330,22 @@
     </div>
 </div>
 <script src='script.js'></script>
+<script>
+    const formEl = document.querySelector(".reserve-form");
+
+    formEl.addEventListener("submit", event => {
+        event.preventDefault();
+
+        const formData = new FormData(formEl);
+        const data = new URLSearchParams(formData)
+
+        fetch("https://reqres.in/api/users", {
+            method: 'POST',
+            body: data
+        }).then(res => res.json())
+            .then(data => console.log(data))
+            .catch(error => console.log(error));
+    });
+</script>
 </body>
 </html>
