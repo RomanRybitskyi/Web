@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+:root {
+    --color-brand-normal: #f5a442;
+    --color-brand-light: #fcc888;
+    --color-brand-dark: #de7d07;
+    --color-primary-light: #FAF4EA;
+    --color-primary-dark: #2d5c03;
+    --color-secondary-dark: #83c447;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.body-sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(103deg, rgba(18, 18, 17, 0.78) 2.03%, rgba(18, 18, 17, 0.6) 58.46%, rgba(18, 18, 17, 0) 90.36%), url("/src/images/hero-section-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.signup-form {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+}
+
+.link {
+    color: var(--color-primary-light);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.link:hover {
+    color: var(--color-brand-normal);
+    /*font-weight: 600;*/
+}
+
+
+.wrapper-sign-up {
+    position: relative;
+    max-width: 1288px;
+    background: #FAF4EA;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper-sign-up h2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+}
+
+.wrapper-sign-up h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #2d5c03;
+}
+
+.wrapper-sign-up form {
+    margin-top: 30px;
+}
+
+.wrapper-sign-up form .input-box-sign-up {
+    height: 52px;
+    margin: 18px 0;
+}
+
+form .input-box-sign-up input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #FAF4EA;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.input-box-sign-up input:focus,
+.input-box-sign-up input:valid {
+    border-color: #2d5c03;
+}
+
+form .policy-sign-up {
+    display: flex;
+    align-items: center;
+}
+
+form h3 {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.input-box-sign-up.button-sign-up input {
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #2d5c03;
+    cursor: pointer;
+}
+
+.input-box-sign-up.button-sign-up input:hover {
+    background: #2d5c03;
+}
+
+form .text h3 {
+    color: #333;
+    text-align: center;
+    margin-right: 25px;
+}
+
+form .text h3 a {
+    color: #2d5c03;
+    text-decoration: none;
+}
+
+form .text h3 a:hover {
+    text-decoration: underline;
+}
+
+
+.container-sign-up {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+/*# sourceMappingURL=style.css.map */
