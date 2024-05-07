@@ -35,7 +35,7 @@ function Home() {
                                     creations, crafted with the freshest ingredients and the utmost attention to detail.</p>
                                 <p className='about-us__text about-us-section__text--limited'> <span
                                     className='text-brand text-bold'>Join us on a culinary
-                        journey that transcends the ordinary.</span> Explore our diverse menu, embrace our innovative
+                        journey that transcends the ordinary.</span> Explore our diverse data, embrace our innovative
                                     approach, and savor the flavors that have made <span
                                         className='text-brand text-bold'>FineDine</span> an internationally recognized
                                     destination for
@@ -61,7 +61,7 @@ function Home() {
                                             <h3 className='attitude-card__title'>AI-System</h3>
                                             <div className='attitude-card__text'>
                                                 <p>FineDine has implemented a cutting-edge AI-based recommendation system that analyzes
-                                                    customers' preferences, previous orders, and highly rated menu items to provide
+                                                    customers' preferences, previous orders, and highly rated data items to provide
                                                     personalized suggestions, ensuring a tailored and delightful dining experience. </p>
                                             </div>
                                         </div>
@@ -73,7 +73,7 @@ function Home() {
                                         <div>
                                             <h3 className='attitude-card__title'>Chat with nutritionist</h3>
                                             <p className='attitude-card__text'>FineDine's "Chat with a Nutritionist" feature connects
-                                                health-conscious diners with qualified professionals for personalized advice on menu
+                                                health-conscious diners with qualified professionals for personalized advice on data
                                                 choices aligning with their dietary goals and nutritional needs.
                                             </p>
                                         </div>
@@ -96,21 +96,58 @@ function Home() {
                                     <li className='swiper-slide'>
                                         <article className='menu-card'>
                                             <img className="menu-card__image" src={diet} alt="Diets" />
-                                                <h3 className='menu-card__title' lang='en'>Diets</h3>
-                                                <div className='menu-card__text'><p>Vegan: Our extensive vegan menu features a variety of
-                                                    plant-based dishes that are free from any animal-derived products, including meat,
-                                                    dairy, and eggs.</p>
-                                                    <p>Vegetarian: For those who prefer a meat-free diet, our vegetarian selection
-                                                        offers a plethora of options, ranging from classNameic pasta dishes to innovative
-                                                        vegetable-based entrees.</p>
-                                                    <p>Keto-Friendly: For those following a low-carb, high-fat ketogenic diet, FineDine
-                                                        offers a variety of keto-friendly options. </p>
-                                                    <p>Paleo: Embracing the principles of the Paleo diet, our Paleo-friendly menu
-                                                        features dishes that are free from grains, legumes, and processed foods.</p>
-                                                </div>
+                                            <h3 className='menu-card__title' lang='en'>Diets</h3>
+                                            <div className='menu-card__text'><p>Vegan: Our extensive vegan menu features a variety of
+                                                plant-based dishes that are free from any animal-derived products, including meat,
+                                                dairy, and eggs.</p>
+                                                <p>Vegetarian: For those who prefer a meat-free diet, our vegetarian selection
+                                                    offers a plethora of options, ranging from classNameic pasta dishes to innovative
+                                                    vegetable-based entrees.</p>
+                                                <p>Keto-Friendly: For those following a low-carb, high-fat ketogenic diet, FineDine
+                                                    offers a variety of keto-friendly options. </p>
+                                                <p>Paleo: Embracing the principles of the Paleo diet, our Paleo-friendly menu
+                                                    features dishes that are free from grains, legumes, and processed foods.</p>
+                                            </div>
 
                                         </article>
                                     </li>
+                                    {/*<li className='swiper-slide'>*/}
+                                    {/*    <article className='menu-card'>*/}
+                                    {/*        <img className="menu-card__image" src={diet} alt="Diets" />*/}
+                                    {/*        <h3 className='menu-card__title' lang='en'>Diets</h3>*/}
+                                    {/*        <div className='menu-card__text'><p>Vegan: Our extensive vegan menu features a variety of*/}
+                                    {/*            plant-based dishes that are free from any animal-derived products, including meat,*/}
+                                    {/*            dairy, and eggs.</p>*/}
+                                    {/*            <p>Vegetarian: For those who prefer a meat-free diet, our vegetarian selection*/}
+                                    {/*                offers a plethora of options, ranging from classNameic pasta dishes to innovative*/}
+                                    {/*                vegetable-based entrees.</p>*/}
+                                    {/*            <p>Keto-Friendly: For those following a low-carb, high-fat ketogenic diet, FineDine*/}
+                                    {/*                offers a variety of keto-friendly options. </p>*/}
+                                    {/*            <p>Paleo: Embracing the principles of the Paleo diet, our Paleo-friendly menu*/}
+                                    {/*                features dishes that are free from grains, legumes, and processed foods.</p>*/}
+                                    {/*        </div>*/}
+
+                                    {/*    </article>*/}
+                                    {/*</li>*/}
+                                    {/*<li className='swiper-slide'>*/}
+                                    {/*    <article className='menu-card'>*/}
+                                    {/*        <img className="menu-card__image" src={diet} alt="Diets" />*/}
+                                    {/*        <h3 className='menu-card__title' lang='en'>Diets</h3>*/}
+                                    {/*        <div className='menu-card__text'><p>Vegan: Our extensive vegan menu features a variety of*/}
+                                    {/*            plant-based dishes that are free from any animal-derived products, including meat,*/}
+                                    {/*            dairy, and eggs.</p>*/}
+                                    {/*            <p>Vegetarian: For those who prefer a meat-free diet, our vegetarian selection*/}
+                                    {/*                offers a plethora of options, ranging from classNameic pasta dishes to innovative*/}
+                                    {/*                vegetable-based entrees.</p>*/}
+                                    {/*            <p>Keto-Friendly: For those following a low-carb, high-fat ketogenic diet, FineDine*/}
+                                    {/*                offers a variety of keto-friendly options. </p>*/}
+                                    {/*            <p>Paleo: Embracing the principles of the Paleo diet, our Paleo-friendly menu*/}
+                                    {/*                features dishes that are free from grains, legumes, and processed foods.</p>*/}
+                                    {/*        </div>*/}
+
+                                    {/*    </article>*/}
+                                    {/*</li>*/}
+
                                 </ul>
                                 <div className="pagination">
                                     <span className="pagination__button"></span>
