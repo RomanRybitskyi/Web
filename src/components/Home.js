@@ -3,7 +3,7 @@ import diet from "../images/popular-diets-4.jpg";
 import restaurant from '../images/hi---12.1589386418.5272.jpg';
 import ai from '../images/ai-banner-800x450_tcm100-7204059_tcm100-6286607-32.jpg';
 import assistant from '../images/Nutritionist.jpg';
-import left from '../images/icons.svg#icon-arrow';
+// import left from '../images/icons.svg#icon-arrow';
 function Home() {
     return (
         <section>
@@ -87,9 +87,9 @@ function Home() {
                         <h2 className='menu-section__title section__title section__title--centered'>Menu</h2>
                         <div className='menu-section__slider'>
                             <button className='menu-section__button carousel-button prev' type='button'>
-                                <svg className='carousel-button__arrow' width='16' height='16'>
-                                    <use href={left}></use>
-                                </svg>
+                                {/*<svg className='carousel-button__arrow' width='16' height='16'>*/}
+                                {/*    <use href={left}></use>*/}
+                                {/*</svg>*/}
                             </button>
                             <div className="menu-section__container swiper-container">
                                 <ul className='menu-section__list swiper-wrapper'>
@@ -157,9 +157,9 @@ function Home() {
                                 </div>
                             </div>
                             <button className='menu-section__button carousel-button next' type='button'>
-                                <svg className='carousel-arrow' width='16' height='16'>
-                                    <use href={left}></use>
-                                </svg>
+                                {/*<svg className='carousel-arrow' width='16' height='16'>*/}
+                                {/*    <use href={left}></use>*/}
+                                {/*</svg>*/}
                             </button>
                         </div>
                     </div>
@@ -170,7 +170,7 @@ function Home() {
                             <div className='reserve-section__form'>
                                 <h2 className='reserve-section__title section__title'>Reservation</h2>
                                 <p>Fill out the form so we can contact you!</p>
-                                <form className="reserve-form" name="reserve-form" autoComplete="off">
+                                <form className="reserve-form" name="reserve-form-m" autoComplete="off">
                                     <div className="reserve-section__form-field input">
                                         <label className="input__label visually-hidden" htmlFor="user-name">Name</label>
                                         <input className="input__control" type="text" id="user-name" name="user-name"
@@ -193,8 +193,8 @@ function Home() {
                             </div>
                             <iframe className='reserve-section__map'
                                     src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2299.017259346569!2d-97.72856821886688!3d30.304507881610583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644ca76bf71360d%3A0x965f8bf25117cd57!2zNDIwNiBEdXZhbCBTdCwgQXVzdGluLCBUWCA3ODc1MSwg0KHQv9C-0LvRg9GH0LXQvdGWINCo0YLQsNGC0Lgg0JDQvNC10YDQuNC60Lg!5e0!3m2!1suk!2sua!4v1711388053563!5m2!1suk!2sua'
-                                    style={{border:0}} allowfullscreen='' loading='lazy'
-                                    referrerpolicy='no-referrer-when-downgrade'></iframe>
+                                    style={{border:0}} allowFullScreen={true} loading='lazy'
+                                    referrerPolicy='no-referrer-when-downgrade'></iframe>
                         </div>
                     </div>
                 </section>

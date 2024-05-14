@@ -24,7 +24,7 @@ function Modal({ isOpen, onClose }) {
 
     return(
         <div className='backdrop'>
-            <div className='modal'  ref={modalRef}>
+            <div className='modal'  ref={modalRef} >
                 <button className='modal-btn-close modal__btn-close button' type='button'  onClick={handleModalClose}>Close</button>
                 <h2>Замовити дзвінок</h2>
                 <p>Залишіть заявку та наш спеціаліст зв'яжеться з Вами!</p>
